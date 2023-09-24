@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offscreen WebGL</title>
+</head>
+<body>
+    <h1>Offscreen canvas rendering in worker</h1>
+    <label for="num">Enter sleep time in ms</label>
+    <input type="number" id="num" value="2000">
+    <button>sleep</button>
+    <hr>
+    <canvas id="canvas" width="800" height="600"></canvas>
+</body>
+<script type="module" src="./index.js"></script>
+<style>
+    canvas {
+        border: 1px solid black;
+    }
+</style>
+</html>

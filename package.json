@@ -1,0 +1,15 @@
+{
+  "name": "offscreen-canvas",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.4.9"
+  }
+}
